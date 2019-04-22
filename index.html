@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Video Game Gifies</title>
+</head>
+
+<body>
+
+    <h1>Video Game Gifies</h1>
+
+    <!-- form used to add new game buttons -->
+    <form id="game-form">
+        <label for="game-input">Add a Game</label><br>
+        <input type="text" id="game-input"><br>
+        <input type="submit" id="add-game" value="Add Game!">
+    </form>
+
+    <h2>Click buttons below to display Gifs!</h2>
+
+    <!-- existing and new buttons added will be placed here -->
+    <div id="videoGame-btns"></div>
+
+    <!-- gifs will be added here when user clicks videGame-btns -->
+    <div id="games-view"></div>
+
+    <!-- link jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- link JS -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>

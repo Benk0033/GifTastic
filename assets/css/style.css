@@ -1,0 +1,87 @@
+body {
+    background-image: url(../img/video-game-background-4.jpg);
+    font-family: monospace;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#videoGame-btns {
+    margin-bottom: 10px;
+    width: 75%;
+    margin-right: 0;
+}
+
+button {
+    height: 25px;
+    margin: 5px;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-align: center;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    line-height: 0px;
+}
+
+button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    transition: all 0.4s ease 0s;
+}
+
+#game-form {
+    float: right;
+}
+
+label {
+    font-size: 18px;
+}
+
+#game-input {
+    width: 300px;
+}
+
+#add-game {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-align: center;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    line-height: 0px;
+}
+
+p {
+    margin-top: 0;
+    color: black;
+    font-weight: bolder;
+    text-shadow: white 0px 0px 10px;
+    padding-left: 2px;
+}
+
+#games-view {
+    width: 1110px;
+}
+
+.game-imgs {
+    display: inline-block;
+    margin: 2px;
+    border: 1px solid red;
+    background-color: #fff;
+    width: 356px;
+}
+
+img {
+    width: 356px;
+    height: 200px;
+}
+
+h2 {
+    margin-top: 0;
+}
