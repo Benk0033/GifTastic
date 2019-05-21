@@ -1,4 +1,5 @@
 # GifTastic
+Link to live website: https://benk0033.github.io/GifTastic/
 1. This project utilizes the Giphy API to search for video game themed gifs
 2. The App loads with three default game buttons
 3. If you click on the button, the App will load ten gifs based on the game that was clicked
